@@ -1,0 +1,82 @@
+.main_body {
+  width: 100%;
+  height: 80%;
+  margin: 0;
+}
+
+.main_body_content {
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+
+.main_body_content >  img{
+  z-index: 1;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  top: 82%;
+  right: 4%;
+  cursor: pointer;
+}
+
+.main_body_content img {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.main_img{
+  position: absolute;
+   z-index: 1;
+  position: absolute;
+  width:6vw;
+  height: 6vw;
+  bottom: 6%;
+  right: 4%;
+}
+.main_img > img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.main_img > img:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.main_body_content img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.modal .MuiPaper-root {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.modal_header {
+  height: 100%;
+  height: 100%;
+  text-align: center;
+}
+.modal_main {
+  height: 100%;
+  height: 100%;
+  text-align: center;
+}
+.modal_header > h2 {
+  margin: 2%;
+}
+.modal_main > p {
+  margin: 2%;
+}
+.modal_button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_button > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

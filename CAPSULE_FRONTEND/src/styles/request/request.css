@@ -1,0 +1,39 @@
+.request{
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.request > h3{
+    margin: 2vw;
+    height: 10%;
+    
+    
+}
+.requests{
+    width: 100%;
+    height: auto;
+}
+
+.my_request {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw;
+  }
+
+  .my_request> img {
+    width: 5%;
+    height: auto; /* 높이 자동 조정 */
+    border-radius: 10vw;
+  }
+  
+  .my_request > p {
+    text-align: center;
+  }
+
+  .accept{
+    display: flex;
+    width: 5%;
+  }

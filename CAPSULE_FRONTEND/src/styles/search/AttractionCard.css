@@ -1,0 +1,52 @@
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75); /* 반투명 배경 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000; /* 다른 요소들보다 위에 표시되도록 */
+  }
+  
+  .ReactModal__Content {
+    position: fixed;
+    background: white;
+    border-radius: 4px;
+    max-width: 600px;
+    width: 80%;
+    padding: 20px;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001; /* 다른 요소들보다 위에 표시되도록 */
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+  }
+  
+  .modal-header button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modal-body img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh; /* 모달 높이의 최대 80%로 설정 */
+  }
+  

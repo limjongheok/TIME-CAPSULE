@@ -1,0 +1,49 @@
+.my_friend {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .friends {
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search_myFriend {
+    width: 100%; /* 너비를 100%로 설정하여 부모 요소의 가로폭을 채웁니다. */
+    height: 65%;
+  }
+  
+  .find_friends {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 정렬을 위해 아이템을 중앙 정렬합니다. */
+    margin-top: 1%;
+  }
+  
+  .my_Search {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    margin-bottom: 5%;
+  }
+  
+  .my_Search > img {
+    width: 5%;
+    height: auto; /* 높이 자동 조정 */
+    border-radius: 10vw;
+  }
+  
+  .my_Search > p {
+    text-align: center;
+  }

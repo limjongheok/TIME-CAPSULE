@@ -1,0 +1,13 @@
+.capsule_header {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.capsule_header > img {
+  width: 2vw;
+  height: 2vw;
+}

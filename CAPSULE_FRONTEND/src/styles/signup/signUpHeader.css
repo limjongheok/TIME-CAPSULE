@@ -1,0 +1,7 @@
+.sign_up_header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}

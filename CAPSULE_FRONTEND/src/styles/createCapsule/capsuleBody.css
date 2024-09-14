@@ -1,0 +1,38 @@
+.capsule_body {
+  width: 100%;
+  height: 72%;
+  display: flex;
+}
+.capsule_header {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.capsule_button {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.capsule_button > input {
+  width: 15vw;
+  height: 2vw;
+  border: none;
+  text-align: center;
+}
+.capsule_button > button {
+  width: 15vw;
+  height: 35%;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 1.2vw;
+  border: none;
+  background-color: #b4dbff;
+  color: #ffffff;
+}

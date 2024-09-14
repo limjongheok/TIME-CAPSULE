@@ -1,0 +1,13 @@
+.sign_up_body{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.check_img{
+    height: 50px;
+    margin-left: 1%;
+}

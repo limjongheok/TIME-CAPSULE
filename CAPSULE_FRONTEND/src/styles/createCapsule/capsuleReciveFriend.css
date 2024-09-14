@@ -1,0 +1,7 @@
+.capsule_recive_friend{
+    width: 50%;
+    height: 100%;
+    border: black solid 1px ;
+    display: flex;
+    justify-content: center;
+}

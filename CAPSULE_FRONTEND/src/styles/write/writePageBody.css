@@ -1,0 +1,28 @@
+.write-page-body {
+  width: 100%;
+  height: 65%;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+.write-content {
+  width: 50%;
+  height: 60%;
+  position: relative;
+  background-color: white;
+}
+.file_Add_button {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  right: 0;
+}
+.write-footer {
+  width: 100%;
+  height: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

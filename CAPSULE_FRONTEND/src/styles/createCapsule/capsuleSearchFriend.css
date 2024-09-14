@@ -1,0 +1,48 @@
+.capsule_seacrh_friend{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.capsule_search_main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.capsule_seach_header{
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+}
+.capsule_search_body{
+    width: 100%;
+    height: 90%;
+    padding-right: 3%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.search{
+    width: 95%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    margin-top: 5%;
+}
+.search > img{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 10vw;
+    
+}
+.search_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.login_oauth{
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.login_oauth > img{
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .login_oauth{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+}

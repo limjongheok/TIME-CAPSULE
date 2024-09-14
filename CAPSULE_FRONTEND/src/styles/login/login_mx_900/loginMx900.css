@@ -1,0 +1,25 @@
+.login_mx_900{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login_mx_900>img{
+    height: 12%;
+    margin-bottom: 3%;
+}
+a {
+    color: #9FCFFC;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .login_mx_900>img{
+        height: 13%;
+        margin-bottom: 20%;
+    }
+}
